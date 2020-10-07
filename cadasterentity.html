@@ -76,11 +76,9 @@
           	<h4 class="mb-4">Por gentileza preencha o formulário abaixo</h4>
             <form action="#">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Seu primeiro nome">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Seu Sobrenome">
-              </div>
+                <input class="form-control" id="name" type="name" placeholder="Seu nome *" required="required" data-validation-required-message="Por gentileza digite seu nome."  />
+                <p class="help-block text-danger"></p>
+            </div>
               <div class="form-group">
                 <input name="email" type="email" class="form-control" placeholder="E-mail*" id="email" required data-validation-required-message="Por gentileze digite seu E-mail." >
                 <p class="help-block text-danger"></p>
